@@ -12,7 +12,7 @@
 }
 
 * {
-  font-family: "Geologica", sans-serif;
+  font-family: "Anton", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -391,10 +391,10 @@ section {
     padding: 80px 20px;
   }
   .hero-name {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
   }
   .hero-title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .hero-buttons {
     flex-direction: column;
