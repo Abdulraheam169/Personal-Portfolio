@@ -387,6 +387,9 @@ section {
 }
 
 @media (max-width: 600px) {
+  :root {
+    font-weight: normal;
+  }
   section {
     padding: 80px 20px;
   }
