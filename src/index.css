@@ -12,7 +12,7 @@
 }
 
 * {
-  font-family: "Anton", sans-serif;
+  font-family: "Fredoka", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,6 +20,7 @@
 }
 
 body {
+  margin: 20px auto;
   background-color: var(--navy);
   background-image:
     radial-gradient(
@@ -33,11 +34,11 @@ body {
       transparent 25%
     );
   color: var(--text-main);
-  font-family:
+  /* font-family:
     "Inter",
     system-ui,
     -apple-system,
-    sans-serif;
+    sans-serif; */
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
@@ -54,7 +55,7 @@ section {
   position: relative;
   display: inline-block;
   color: var(--text-main);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .section-title::after {
@@ -86,7 +87,7 @@ section {
 
 .hero-name {
   font-size: clamp(3rem, 8vw, 5rem);
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.1;
   color: var(--text-main);
   margin-bottom: 10px;
@@ -94,7 +95,7 @@ section {
 
 .hero-title {
   font-size: clamp(2rem, 5vw, 3.5rem);
-  font-weight: 700;
+  font-weight: 500;
   background: var(--gradient-text);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -173,6 +174,7 @@ section {
 }
 
 .project-title {
+  font-weight: 450;
   font-size: 1.5rem;
   margin-bottom: 15px;
   color: var(--text-main);
@@ -231,7 +233,7 @@ section {
   font-size: 1.25rem;
   color: var(--indigo);
   margin-bottom: 20px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .badges-container {
   display: flex;
@@ -287,7 +289,7 @@ section {
 .timeline-period {
   font-size: 0.9rem;
   color: var(--blue);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 8px;
   display: block;
 }
@@ -387,9 +389,6 @@ section {
 }
 
 @media (max-width: 600px) {
-  :root {
-    font-weight: normal;
-  }
   section {
     padding: 80px 20px;
   }
